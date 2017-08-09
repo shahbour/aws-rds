@@ -1,4 +1,8 @@
+cloud.aws.rds.porta:
 cloud.aws.rds.portal.password: Tx9P50LxnPXO
 cloud.aws.rds.portal.username: master
 cloud.aws.rds.portal.readReplicaSupport: false
 cloud.aws.rds.portal.databaseName: portal
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
